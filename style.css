@@ -1,0 +1,48 @@
+#container {
+    border: 1px solid black;
+    width: 385px;
+    height: 685px;
+    margin-top: 95px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+input {
+    width: 377px;
+    height: 95px;
+    background-color: mintcream;
+    font-size: 55px;
+    text-align: right;
+}
+
+button {
+    width: 75px;
+    height: 75px;
+    margin: 11.5px;
+    margin-left: 9px;
+    font-size: 32px;
+    font-family: sans-serif;
+    border: 1px solid black;
+    border-radius: 45px;
+    background-color: grey;
+    color: white;
+}
+
+#diff {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(147, 158, 168);
+}
+
+#equal {
+    width: 3855px;
+    background-color: rgb(147, 158, 168);
+}
+
+@media screen and (max-width:300px) {
+    #container {
+        margin-top: 0%;
+        width: 382px;
+    }
+}
